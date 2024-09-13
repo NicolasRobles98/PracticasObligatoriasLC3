@@ -30,9 +30,12 @@ const Login = () => {
             onChange={InputHandler}
             value={user}
             />
+
             <button onClick={CheckInputHandler}>
                 Registrarse
             </button>
+            <p>{user}</p>
+
         </div>
         
     )
