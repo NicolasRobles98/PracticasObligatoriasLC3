@@ -1,6 +1,5 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
-import { Button } from 'react-bootstrap';
+
 
 const Task =({task, handletaskDelete, handletaskComplete})=>{
    
