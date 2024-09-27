@@ -14,7 +14,7 @@ const TaskList = ({ tasks, handletaskDelete, handletaskComplete }) => {
     //     )
     // )   
     return (
-        <ul>
+        <div>
             {tasksFiltered.map(task => (
                 <Task
                     key={task.id}
@@ -23,7 +23,7 @@ const TaskList = ({ tasks, handletaskDelete, handletaskComplete }) => {
                     handletaskComplete={handletaskComplete}
                 />
             ))}
-        </ul>
+        </div>
     )
 }
 
